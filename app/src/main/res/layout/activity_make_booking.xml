@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/add_location_bg"
+    tools:context="com.car.wash.Booking.MakeBooking">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bookbg">
+
+
+        <EditText
+            android:id="@+id/edtNumb"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/edit_text_boreder"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Reg. Number : KA-00-AA-0000"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_below="@+id/edtNumb"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text_boreder"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_below="@+id/edtPhone"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text_boreder"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_below="@+id/edtName"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text_boreder"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtEmail"
+            android:text="Type of Service"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="500dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_below="@+id/textView"
+            android:background="@color/cPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/select_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="Select Car"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/select_car"
+            android:background="@color/cPrimary"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:text="Select Date"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:layout_marginLeft="35dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textview1" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:text="Select Time"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/datePicker"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textview2"
+            android:background="@color/cPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="BOOK"
+            android:background="@android:color/holo_blue_light" />
+
+</RelativeLayout>
+</ScrollView>

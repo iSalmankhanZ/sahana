@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">CarWash50</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="verify_note">To get access to our services, kindly log in with your mobile number.</string>
+    <string name="code_instructions">Your details would never be shared</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="bookdetails">Bookings are deemed to be placed by the 50 street car wash application. Bookings can also be placed by calling to the mobile number
+    </string>
+
+    <string name="paymentdetails">Payment can be made through cash or Credit/Debit card. Customers are required to clear the payment
+    after the service is completed, any amount unpaid may result in retaining customers vehicle and not releasing it until the payment is completed.\n
+        The amount mentioned in the app and website for the type of vehicle selected by the customer should be paid without any bargaing.
+    </string>
+
+    <string name="pricingdetails">All our prices are listed in the website and app service menu.</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="pick_date">Pick Date</string>
+    <string name="init_text">Neurobin Date Picker Example</string>
+
+    <string-array name="service">
+        <item>Paint Protection - Economy [6 months] </item>
+        <item>Paint Protection - Standard [1 Year]</item>
+        <item>Interior Valeting</item>
+        <item>Interior Cleaning with Protection [Leather]</item>
+        <item>Interior Cleaning with Protection [Fabric]</item>
+        <item>Alloy Wheel Cleaning and Protection</item>
+        <item>Rainscreen and Glass Treatment</item>
+        <item>Underchassi Rust Guard</item>
+        <item>Internal Panel Protection</item>
+        <item>Windshield Polish [Front Only]</item>
+        <item>Windshield Polish [Front and Rear]</item>
+        <item>Interior Valeting and Disinfection</item>
+        <item>Headlight Restoration</item>
+        <item>Premium Interior Valeting with Foam</item>
+        <item>Alloy Wheel Cleaning</item>
+        <item>Mech care</item>
+        <item>Leather Conditioner</item>
+        <item>Logo Cleaning</item>
+        <item>Silencer coating</item>
+        <item>Air Conditioner Protection</item>
+        <item>Engine Lacquring</item>
+    </string-array>
+
+    <string-array name="car_list">
+
+        <item>Audi</item>
+        <item>Maruti Suzuki</item>
+        <item>Mercedes</item>
+    </string-array>
+
+
+    <string-array name="genre">
+        <item>Rock</item>
+        <item>metal</item>
+    </string-array>
+
+
+    <string-array name="time">
+        <item>10 am</item>
+        <item>11 am</item>
+        <item>12 pm</item>
+        <item>1 pm</item>
+        <item>2 pm</item>
+        <item>3 pm</item>
+        <item>4 pm</item>
+        <item>5 pm</item>
+        <item>6 pm</item>
+    </string-array>
+
+</resources>

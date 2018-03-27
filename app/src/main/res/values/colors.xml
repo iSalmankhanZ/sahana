@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+
+    <color name="cPrimary">#004d40</color>
+    <color name="cPrimaryDark">#00251a</color>
+    <color name="cAccent">#39796b</color>
+
+    <color name="btngoogle">#39796b</color>
+    <color name="btnphone">#A9d440</color>
+    <drawable name="bg_screen1">#B33395ff</drawable>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+
+
+</resources>

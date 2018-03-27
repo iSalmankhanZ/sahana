@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_makebooking"
+            android:icon="@drawable/menu_make_booking"
+            android:title="Make a Booking" />
+
+        <item
+            android:id="@+id/nav_mybookings"
+            android:icon="@drawable/menu_my_booking"
+            android:title="My Booking" />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/menu_service"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/menu_help"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/menu_terms_condition"
+            android:title="Terms and conditions" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/menu_about_us"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+    </group>
+
+    <item
+
+        android:title="Communicate"
+        android:textColor="@android:color/white">
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
